@@ -4,17 +4,102 @@
   
   
   <entry>
-    <title>如何免费搭建一个属于自己的hexo静态博客</title>
-    <link href="/2024/07/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2024/07/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</url>
+    <title>好用的Coding插件（持续更新）</title>
+    <link href="/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84VScode%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/"/>
+    <url>/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84VScode%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/</url>
     
-    <content type="html"><![CDATA[<h1 id="2-如何免费搭建一个属于自己的hexo静态博客"><a href="#2-如何免费搭建一个属于自己的hexo静态博客" class="headerlink" title="2 如何免费搭建一个属于自己的hexo静态博客"></a>2 如何免费搭建一个属于自己的hexo静态博客</h1><p>本来想着自己写一篇搭建hexo博客的文章，后来找到了这篇文章<a href="https://blog.csdn.net/cat_bayi/article/details/128725230">Hexo教程，看这一篇就够了- How to系列</a>，写得非常详细了，而且图文都有，那么我就说说自己搞错的地方吧。</p><h2 id="准备："><a href="#准备：" class="headerlink" title="准备："></a>准备：</h2><ol><li>安装一个加速器用于github的登录，我用的<a href="https://steampp.net/">watt toolkit</a>。</li><li><a href="https://www.cnblogs.com/moshuying/p/15367181.html">注册github</a></li><li><a href="https://blog.csdn.net/msdcp/article/details/127033151">下载vdcode编辑器，安装Markdown插件</a><blockquote><p>补充：VScode简单说就是一款插件软件，安装上对应的插件，就可以进行编程（C、C++、Java、Python、JavaScript等）</p></blockquote></li></ol><hr><h2 id="安装时："><a href="#安装时：" class="headerlink" title="安装时："></a>安装时：</h2><ol><li>你需要注意你的终端要有管理员权限，否则操作的时候会出现权限不足的报错。</li><li>目前Gitee和coding的pages页面已经是停用了的（我看网上的远端免费部署就是在这三个代码托管平台上面），也就是说，要想部署，只能在github上面。</li><li>要想把自己的博客成功部署到github上面，现在只能是ssh公私匙连接和令牌（令牌我没有成功，感兴趣可以试试）通过https的账号密码模式登录的功能在2021年八月就已经取消了。公私匙连接，令牌的配置可以参考<a href="https://blog.csdn.net/qq_46941656/article/details/119737804">Github创建个人访问令牌教程</a>。</li></ol><h2 id="配置主题时："><a href="#配置主题时：" class="headerlink" title="配置主题时："></a>配置主题时：</h2><ol><li>在windows下，文件的地址分隔符是<code>\</code>，而，主题配置里面的文件地址都是<code>/</code>，所以在配置主题时需要注意路径的分隔符。</li><li>远端的图片加载不出来时，1.先检查分隔符，2.看看自己的本都预览是否正常。如果都没问题，就试试shift+F5刷新一下远端页面。</li></ol><h2 id="后续提交"><a href="#后续提交" class="headerlink" title="后续提交"></a>后续提交</h2><ol><li><strong>这个真的很重要：（我真靠北了）在配置文件时，单个文件（照片、音频、视频等）的大小不能超过100M，否则会上传失败。然后处理很麻烦。</strong></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="5-好用的Coding插件（持续更新）"><a href="#5-好用的Coding插件（持续更新）" class="headerlink" title="5.好用的Coding插件（持续更新）"></a>5.好用的Coding插件（持续更新）</h1><h2 id="5-0前言"><a href="#5-0前言" class="headerlink" title="5.0前言"></a>5.0前言</h2><p>VScode 是一款非常优秀的编辑器，高效的插件会使这款软件更加顺手，这篇文章将介绍一些自己用过的好用的 VScode 插件，帮助你提高学习效率。</p><h2 id="5-1fittencode：专业-AI-代码助手"><a href="#5-1fittencode：专业-AI-代码助手" class="headerlink" title="5.1fittencode：专业 AI 代码助手"></a>5.1fittencode：专业 AI 代码助手</h2><h3 id="5-1-1适用软件：-官方教程"><a href="#5-1-1适用软件：-官方教程" class="headerlink" title="5.1.1适用软件：(官方教程)"></a>5.1.1适用软件：(官方教程)</h3><ol><li><a href="https://code.fittentech.com/tutor_vscode_zh">Visual Studio Code安装教程</a></li><li><a href="https://code.fittentech.com/tutor_jetbrains_zh">JetBrains 系列产品安装教程</a></li><li><a href="https://code.fittentech.com/tutor_vs_zh">Visual Studio 版安装教程</a></li><li><a href="https://code.fittentech.com/tutor_vim_zh">Vim 版安装教程</a></li></ol><h3 id="5-1-2官方介绍："><a href="#5-1-2官方介绍：" class="headerlink" title="5.1.2官方介绍："></a>5.1.2官方介绍：</h3><p>Fitten Code 是一个由非十科技自研代码大模型驱动的 AI 代码助手。它支持多种语言，包括 <code>Python</code>、<code>JavaScript</code>、<code>TypeScript</code>、<code>Java</code>、<code>C</code>、<code>C++</code> 等。使用 Fitten Code，你可以<code>自动进行代码补全</code>，并可以在 Visual Studio Code 侧边栏内<code>生成代码</code>、<code>生成注释</code>、<code>编辑代码</code>、<code>解释代码</code>、<code>生成测试</code>、<code>查找错误</code>等。<br>具体请<a href="https://code.fittentech.com/">点击此处</a></p>]]></content>
     
+    
+    <categories>
+      
+      <category>好物推荐</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>插件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的hexo博客提交流程</title>
+    <link href="/2024/07/27/%E6%88%91%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E6%8F%90%E4%BA%A4%E6%B5%81%E7%A8%8B/"/>
+    <url>/2024/07/27/%E6%88%91%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E6%8F%90%E4%BA%A4%E6%B5%81%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="4-我的hexo博客提交流程"><a href="#4-我的hexo博客提交流程" class="headerlink" title="4.我的hexo博客提交流程"></a>4.我的hexo博客提交流程</h1><ol><li>本地写好博客</li><li>check第一次</li><li>进入blog进行修改</li><li>本地预览</li><li>到晚上全面check第二次，检查是否有限制的内容</li><li>提交到的github仓库</li><li>刷新网址，查看博客是否更新  </li><li>完成</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>初学者如何 code in 云主机</title>
+    <link href="/2024/07/27/%E5%A6%82%E4%BD%95code%20with%20%E4%BA%91%E4%B8%BB%E6%9C%BA/"/>
+    <url>/2024/07/27/%E5%A6%82%E4%BD%95code%20with%20%E4%BA%91%E4%B8%BB%E6%9C%BA/</url>
+    
+    <content type="html"><![CDATA[<h1 id="3-初学者如何-code-in-云主机？"><a href="#3-初学者如何-code-in-云主机？" class="headerlink" title="3.初学者如何 code in 云主机？"></a>3.初学者如何 code in 云主机？</h1><p><strong>此处“云主机”指</strong>：轻量应用服务器(具体的其他服务器类型，请自行搜索比较区别)</p><h2 id="3-0-前言：为什么要用云服务器？（简述）"><a href="#3-0-前言：为什么要用云服务器？（简述）" class="headerlink" title="3.0 前言：为什么要用云服务器？（简述）"></a>3.0 前言：为什么要用云服务器？（简述）</h2><blockquote><p>如果，你用的是windows系统，但是想学习linux系统上的编程。你可以在自己的电脑上安装虚拟机，然后在虚拟机上安装linux系统，然后在linux系统上进行编程。</p></blockquote><p><strong>优点</strong>：</p><ol><li>可以学到虚拟机的相关配置。</li><li>基本上不用花费too much的金钱成本。</li></ol><p><strong>缺点</strong>：</p><ol><li>本来想着学习linux系统，但是花费太多时间在虚拟机上。学习战线被拉得太长了，激情被消磨了。</li><li>安装好后，倒腾了一段时间后，把虚拟机搞崩了。</li><li>虚拟机没有独立的公网IP。</li></ol><blockquote><p>所以，如果你想学习linux系统上的编程，并且不想花费太多时间在虚拟机上，那么，云主机就派上了用场。<br>首先，云主机的配置比较简单，不需要很多的时间去倒腾，可以及时满足代码学习的需求。<br>其次，云主机的使用体验很好，可以随时随地的使用，不用担心服务器的维护，服务器崩了直接一键重装即可。<br>最后，云主机有自己的独立公网IP。</p></blockquote><p>具体的区别<a href="https://cloud.tencent.com/developer/article/2103143">点击此处</a></p><h2 id="3-1-云主机的选购"><a href="#3-1-云主机的选购" class="headerlink" title="3.1 云主机的选购"></a>3.1 云主机的选购</h2><p>云主机是一种虚拟服务器，可以让你在线上运行代码，而不需要购买服务器。云主机的优点是按需付费，只需要支付使用时间，不需要预先购买服务器，因此可以节省开支。</p><p>目前，有很多云主机供应商可以提供云主机服务，本文只拿腾讯云和阿里云举例。</p><blockquote><p>虽然两家都有免费试用期，但是一旦选择免费试用，那么首单优惠也就没了。首单优惠力度很大的多是骨折，所以，建议往一年以上购买。</p></blockquote><blockquote><p>配置选择：云主机的配置可以根据自己的需求进行选择，比如内存大小、硬盘大小、CPU核数等。<strong>但是基本上最低的配置就可以满足一般的代码学习，前期没必要纠结于云主机的硬件配置</strong></p></blockquote><h3 id="3-1-1腾讯云"><a href="#3-1-1腾讯云" class="headerlink" title="3.1.1腾讯云"></a>3.1.1腾讯云</h3><p><a href="https://cloud.tencent.com/act/pro/Featured?fromSource">腾讯云选购界面</a></p><h3 id="3-1-2-阿里云"><a href="#3-1-2-阿里云" class="headerlink" title="3.1.2 阿里云"></a>3.1.2 阿里云</h3><p><a href="https://www.aliyun.com/benefit/waitou/V2">阿里云选购界面</a></p><h2 id="3-2-云主机的连接"><a href="#3-2-云主机的连接" class="headerlink" title="3.2 云主机的连接"></a>3.2 云主机的连接</h2><h3 id="3-2-1-准备"><a href="#3-2-1-准备" class="headerlink" title="3.2.1 准备"></a>3.2.1 准备</h3><p>连接前你需要准备以下信息：</p><div>            <input type="checkbox"  >云主机的IP地址          </div><div>            <input type="checkbox"  >云主机的用户名和密码          </div><div>            <input type="checkbox"  >云主机的端口号          </div><div>            <input type="checkbox"  >下载<a href="https://github.com/Eugeny/tabby/releases/tag/v1.0.211">Tabby</a>          </div><p>我的tabby下载的是这个版本号<br><img src="/picture/tabby_win.png" alt="图片"></p><h3 id="3-2-2-连接"><a href="#3-2-2-连接" class="headerlink" title="3.2.2 连接"></a>3.2.2 连接</h3><ol><li>下载好tabby后，打开软件进入主界面<br><img src="/picture/tabby%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2.png" alt="图片"></li><li>然后进入setting修改语言为中文</li><li>再次进入主界面，点击配置与连接，再弹出的界面最下面点击管理配置，进入配置界面<br> <img src="/picture/%E9%85%8D%E7%BD%AE%E7%95%8C%E9%9D%A2.png%22" alt="图片"></li><li></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>云主机</category>
+      
+    </categories>
     
     
     <tags>
       
       <tag>入门</tag>
+      
+      <tag>轻量应用服务器</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>如何免费搭建一个属于自己的hexo静态博客</title>
+    <link href="/2024/07/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2024/07/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2-如何免费搭建一个属于自己的hexo静态博客"><a href="#2-如何免费搭建一个属于自己的hexo静态博客" class="headerlink" title="2.如何免费搭建一个属于自己的hexo静态博客"></a>2.如何免费搭建一个属于自己的hexo静态博客</h1><p>本来想着自己写一篇搭建hexo博客的文章，后来找到了这篇文章<a href="https://blog.csdn.net/cat_bayi/article/details/128725230">Hexo教程，看这一篇就够了- How to系列</a>，写得非常详细了，而且图文都有，那么我就说说自己搞错的地方吧。</p><h2 id="2-1准备："><a href="#2-1准备：" class="headerlink" title="2.1准备："></a>2.1准备：</h2><ol><li>安装一个加速器用于github的登录，我用的<a href="https://steampp.net/">watt toolkit</a>。</li><li><a href="https://www.cnblogs.com/moshuying/p/15367181.html">注册github</a></li><li><a href="https://blog.csdn.net/msdcp/article/details/127033151">下载vdcode编辑器，安装Markdown插件</a><blockquote><p>补充：VScode简单说就是一款插件软件，安装上对应的插件，就可以进行编程（C、C++、Java、Python、JavaScript等）</p></blockquote></li></ol><hr><h2 id="2-2安装时："><a href="#2-2安装时：" class="headerlink" title="2.2安装时："></a>2.2安装时：</h2><ol><li>你需要注意你的终端要有管理员权限，否则操作的时候会出现权限不足的报错。</li><li>目前Gitee和coding的pages页面已经是停用了的（我看网上的远端免费部署就是在这三个代码托管平台上面），也就是说，要想部署，只能在github上面。</li><li>要想把自己的博客成功部署到github上面，现在只能是ssh公私匙连接和令牌（令牌我没有成功，感兴趣可以试试）通过https的账号密码模式登录的功能在2021年八月就已经取消了。公私匙连接，令牌的配置可以参考<a href="https://blog.csdn.net/qq_46941656/article/details/119737804">Github创建个人访问令牌教程</a>。</li></ol><h2 id="2-3配置主题时："><a href="#2-3配置主题时：" class="headerlink" title="2.3配置主题时："></a>2.3配置主题时：</h2><ol><li>在windows下，文件的地址分隔符是<code>\</code>，而，主题配置里面的文件地址都是<code>/</code>，所以在配置主题时需要注意路径的分隔符。</li><li>远端的图片加载不出来时，1.先检查分隔符，2.看看自己的本都预览是否正常。如果都没问题，就试试shift+F5刷新一下远端页面。</li></ol><h2 id="2-4后续提交"><a href="#2-4后续提交" class="headerlink" title="2.4后续提交"></a>2.4后续提交</h2><ol><li><strong>这个真的很重要：在配置文件时，单个文件（照片、音频、视频等）的大小不能超过100M，否则会上传失败。然后处理很麻烦。</strong><br>文件过大可以通过git-lfs来进行push，具体可以参考<a href="https://git-lfs.github.com/">git-lfs官网</a>。但是github的免费空间有限，所以还是要注意文件大小。</li></ol><h2 id="2-5如果崩溃-精神或者程序"><a href="#2-5如果崩溃-精神或者程序" class="headerlink" title="2.5如果崩溃(精神或者程序)"></a>2.5如果崩溃(精神或者程序)</h2><blockquote><p>直接重新创建一个仓库和本地文件夹就好了</p></blockquote><ol><li>通过 <code>软件名 -v</code>的格式查看git、node、npm、cnpm的版本号（版本号都有则配置的环境依然存在）</li><li><code>hexo init 文件名</code>创建一个新的blog目录</li><li><code>cd 文件名</code>进入blog目录</li><li><code>cnpm install</code>安装依赖包</li><li><code>hexo clean</code>清理缓存文件</li><li><code>hexo g</code>生成静态文件</li><li><code>hexo s</code>启动本地预览</li><li>进入本地localhost预览</li><li><code>npm install hexo-deployer-git --save</code>安装deploy-git ，实现部署</li><li>检查自己的主题和文件有无异常（主题的修改按照之前的步骤进行就可以），最后再检查一下自己的localhost预览是否正常。</li><li>然后<code>hexo d</code>部署到github</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>入门</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -30,10 +115,16 @@
     <content type="html"><![CDATA[<h1 id="1-我的第一篇博客文章"><a href="#1-我的第一篇博客文章" class="headerlink" title="1.我的第一篇博客文章"></a>1.我的第一篇博客文章</h1><p>经历四天的兜兜转转，今天终于也是把hexo框架的博客基本搭建起来了。</p><p>值得记录。</p>]]></content>
     
     
+    <categories>
+      
+      <category>计算机随记</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>记录</tag>
+      <tag>纪念</tag>
       
     </tags>
     
