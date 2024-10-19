@@ -4,11 +4,40 @@
   
   
   <entry>
+    <title>达芬奇笔记</title>
+    <link href="/2024/09/12/%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E_%E8%BE%BE%E8%8A%AC%E5%A5%87_%E7%AC%94%E8%AE%B0/"/>
+    <url>/2024/09/12/%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E_%E8%BE%BE%E8%8A%AC%E5%A5%87_%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.mubu.com/doc/3-5PZ1iGNGk">第一节内容</a><br>初步介绍达芬奇的<strong>工作流程</strong>和<strong>七个剪辑面板的功能</strong><br><a href="https://www.mubu.com/doc/KzrDAkKU">第二节内容</a></p><p><a href="https://www.mubu.com/doc/4l7BsfVGDL2">第三节内容</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>BiliBili</category>
+      
+      <category>剪辑</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>剪辑</tag>
+      
+      <tag>达芬奇</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Ubuntu系统操作</title>
     <link href="/2024/08/18/Ubuntu%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C/"/>
     <url>/2024/08/18/Ubuntu%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C/</url>
     
-    <content type="html"><![CDATA[<h1 id="Ubuntu系统操作笔记"><a href="#Ubuntu系统操作笔记" class="headerlink" title="Ubuntu系统操作笔记"></a>Ubuntu系统操作笔记</h1><p>文件操作：</p><ul><li>查看当前目录：pwd</li><li>查看当前目录下的文件：ls</li><li>查看当前目录下的文件详细信息：ls -l</li><li>查看当前目录下的文件详细信息，包括隐藏文件：ls -la</li><li>切换目录：cd </li><li>创建目录：mkdir filename</li><li>删除文件：rm filename</li><li>删除目录：rm -r</li><li>复制文件：cp oldfilename newfilename</li><li>移动文件：mv oldfilename newfilename</li><li>查看文件内容：cat filename</li><li>更改文件名字：mv oldname newname</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Ubuntu系统操作笔记"><a href="#Ubuntu系统操作笔记" class="headerlink" title="Ubuntu系统操作笔记"></a>Ubuntu系统操作笔记</h1><h2 id="文件操作："><a href="#文件操作：" class="headerlink" title="文件操作："></a>文件操作：</h2><ul><li>查看当前目录：pwd</li><li>查看当前目录下的文件：ls</li><li>查看当前目录下的文件详细信息：ls -l</li><li>查看当前目录下的文件详细信息，包括隐藏文件：ls -la</li><li>切换目录：cd </li><li>创建目录：mkdir filename</li><li>删除文件：rm filename</li><li>删除目录：rm -r</li><li>复制文件：cp oldfilename newfilename</li><li>移动文件：mv oldfilename newfilename</li><li>查看文件内容：cat filename</li><li>更改文件名字：mv oldname newname</li></ul><h2 id="vim编辑器"><a href="#vim编辑器" class="headerlink" title="vim编辑器"></a>vim编辑器</h2><ul><li>打开文件：vim filename</li><li>保存文件：:wq</li><li>退出编辑器：:q</li></ul><h2 id="C编译"><a href="#C编译" class="headerlink" title="C编译"></a>C编译</h2><ul><li>gcc outputfile<br>  &#x2F;&#x2F;这个形成的可执行文件是.&#x2F;a.out,每次gcc过后，.&#x2F;a.out都会被重新生成</li><li>gcc outputfile -lm<br>  &#x2F;&#x2F;&lt;math.h&gt;在编译时加进去，才能编译成功</li></ul><h1 id="Tabby终端快捷键"><a href="#Tabby终端快捷键" class="headerlink" title="Tabby终端快捷键"></a>Tabby终端快捷键</h1><ul><li>Ctrl + +&#x2F;- 调节字体大小</li></ul>]]></content>
     
     
     <categories>
@@ -59,10 +88,10 @@
   
   <entry>
     <title>船说C语言</title>
-    <link href="/2024/07/29/%E8%88%B9%E8%AF%B4C%E8%AF%AD%E8%A8%80/"/>
-    <url>/2024/07/29/%E8%88%B9%E8%AF%B4C%E8%AF%AD%E8%A8%80/</url>
+    <link href="/2024/07/29/%E8%88%B9%E8%AF%B4%E8%AF%BE%E7%A8%8B/%E8%88%B9%E8%AF%B4C%E8%AF%AD%E8%A8%80/"/>
+    <url>/2024/07/29/%E8%88%B9%E8%AF%B4%E8%AF%BE%E7%A8%8B/%E8%88%B9%E8%AF%B4C%E8%AF%AD%E8%A8%80/</url>
     
-    <content type="html"><![CDATA[<p><a href="https://www.mubu.com/doc/1Etd_D1RA3P">第一章幕布笔记链接</a><br><a href="https://www.mubu.com/doc/5m8i6gHWnq3">第二章幕布笔记链接</a><br><a href="https://www.mubu.com/doc/5YasWC7zCij">第三章幕布笔记链接</a><br><a href="https://github.com/NFraw/-C-">代码链接</a></p>]]></content>
+    <content type="html"><![CDATA[<p>船说c语言中的代码大部分都在这，但是一些演示属性的代码不可能全部包含。</p><p><a href="https://www.mubu.com/doc/1Etd_D1RA3P">第一章幕布笔记链接</a><br><a href="https://www.mubu.com/doc/5m8i6gHWnq3">第二章幕布笔记链接</a><br><a href="https://www.mubu.com/doc/5YasWC7zCij">第三章幕布笔记链接</a><br><a href="https://www.mubu.com/doc/4XspbzIk8rg">第四章幕布笔记链接</a><br><a href="https://github.com/NFraw/-C-">代码链接</a></p>]]></content>
     
     
     <categories>
@@ -86,8 +115,8 @@
   
   <entry>
     <title>哔哩哔哩课堂-宏观经济学-第1课</title>
-    <link href="/2024/07/28/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-1/"/>
-    <url>/2024/07/28/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-1/</url>
+    <link href="/2024/07/28/BiLiBiLi%E8%AF%BE%E7%A8%8B/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-1/"/>
+    <url>/2024/07/28/BiLiBiLi%E8%AF%BE%E7%A8%8B/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6-1/</url>
     
     <content type="html"><![CDATA[<h1 id="哔哩哔哩课堂-宏观经济学-第1课"><a href="#哔哩哔哩课堂-宏观经济学-第1课" class="headerlink" title="哔哩哔哩课堂-宏观经济学-第1课"></a>哔哩哔哩课堂-宏观经济学-第1课</h1><blockquote><p>回顾2021年中国经济事件</p></blockquote><p><a href="https://www.bilibili.com/cheese/play/ss3461?csource">课程链接</a></p><h2 id="1-1课程先导："><a href="#1-1课程先导：" class="headerlink" title="1.1课程先导："></a>1.1课程先导：</h2><blockquote><ol><li>慢变量：人性、历史政治、国内政治、国际政治。</li></ol></blockquote><blockquote><ol start="2"><li>宏观经济大势主要就是沿着“慢变量”来不断演进的</li></ol></blockquote><blockquote><ol start="3"><li>人物介绍：约翰·梅纳德·凯恩斯（宏观经济学之父）《通论》《货币论》主张政府干预经济</li></ol></blockquote><blockquote><ol start="4"><li>中国十八大之后中国宏观经济计划改变</li></ol></blockquote><h2 id="1-2开始分析："><a href="#1-2开始分析：" class="headerlink" title="1.2开始分析："></a>1.2开始分析：</h2><p>2021年1月29号早上，王歧山副主席会见美国第十二届商界领导，美国前高官</p><ul><li>美国政党背后金主</li><li>民主党：金融、高科技、传媒、娱乐业</li><li>共和党：传统制造业和传统能源</li><li>与会结果：拜登政府取消特朗普时期贸易关税，后续又收了回去。</li></ul>]]></content>
     
@@ -113,8 +142,8 @@
   
   <entry>
     <title>哔哩哔哩课堂-偏见看政治-第1课</title>
-    <link href="/2024/07/28/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%81%8F%E8%A7%81%E7%9C%8B%E6%94%BF%E6%B2%BB-1/"/>
-    <url>/2024/07/28/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%81%8F%E8%A7%81%E7%9C%8B%E6%94%BF%E6%B2%BB-1/</url>
+    <link href="/2024/07/28/BiLiBiLi%E8%AF%BE%E7%A8%8B/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%81%8F%E8%A7%81%E7%9C%8B%E6%94%BF%E6%B2%BB-1/"/>
+    <url>/2024/07/28/BiLiBiLi%E8%AF%BE%E7%A8%8B/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%BE%E5%A0%82-%E5%81%8F%E8%A7%81%E7%9C%8B%E6%94%BF%E6%B2%BB-1/</url>
     
     <content type="html"><![CDATA[<h1 id="哔哩哔哩课堂-偏见看政治-第1课"><a href="#哔哩哔哩课堂-偏见看政治-第1课" class="headerlink" title="哔哩哔哩课堂-偏见看政治-第1课"></a>哔哩哔哩课堂-偏见看政治-第1课</h1><p><a href="https://www.bilibili.com/cheese/play/ss1459">课程链接</a></p>]]></content>
     
@@ -140,8 +169,8 @@
   
   <entry>
     <title>好用的Coding插件（持续更新）</title>
-    <link href="/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84VScode%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/"/>
-    <url>/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84VScode%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/</url>
+    <link href="/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84Coding%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/"/>
+    <url>/2024/07/27/%E5%A5%BD%E7%94%A8%E7%9A%84Coding%E6%8F%92%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%9C%9F/</url>
     
     <content type="html"><![CDATA[<h1 id="5-好用的Coding插件（持续更新）"><a href="#5-好用的Coding插件（持续更新）" class="headerlink" title="5.好用的Coding插件（持续更新）"></a>5.好用的Coding插件（持续更新）</h1><h2 id="5-0前言"><a href="#5-0前言" class="headerlink" title="5.0前言"></a>5.0前言</h2><h2 id="在平时写代码的时候，好的代码助手可以帮助我们补充代码，提供优化建议，解决许多问题。下面介绍一些自己用过的好用的Coding插件。-此处Coding单纯指写代码这一行为，不是特殊的某一款软件。"><a href="#在平时写代码的时候，好的代码助手可以帮助我们补充代码，提供优化建议，解决许多问题。下面介绍一些自己用过的好用的Coding插件。-此处Coding单纯指写代码这一行为，不是特殊的某一款软件。" class="headerlink" title="在平时写代码的时候，好的代码助手可以帮助我们补充代码，提供优化建议，解决许多问题。下面介绍一些自己用过的好用的Coding插件。- 此处Coding单纯指写代码这一行为，不是特殊的某一款软件。"></a>在平时写代码的时候，好的代码助手可以帮助我们补充代码，提供优化建议，解决许多问题。下面介绍一些自己用过的好用的Coding插件。<br>- 此处Coding单纯指写代码这一行为，不是特殊的某一款软件。</h2><h2 id="5-1fittencode：专业-AI-代码助手"><a href="#5-1fittencode：专业-AI-代码助手" class="headerlink" title="5.1fittencode：专业 AI 代码助手"></a>5.1fittencode：专业 AI 代码助手</h2><h3 id="5-1-1适用软件：-官方教程"><a href="#5-1-1适用软件：-官方教程" class="headerlink" title="5.1.1适用软件：(官方教程)"></a>5.1.1适用软件：(官方教程)</h3><ol><li><a href="https://code.fittentech.com/tutor_vscode_zh">Visual Studio Code安装教程</a></li><li><a href="https://code.fittentech.com/tutor_jetbrains_zh">JetBrains 系列产品安装教程</a></li><li><a href="https://code.fittentech.com/tutor_vs_zh">Visual Studio 版安装教程</a></li><li><a href="https://code.fittentech.com/tutor_vim_zh">Vim 版安装教程</a></li></ol><h3 id="5-1-2VScode版官方介绍："><a href="#5-1-2VScode版官方介绍：" class="headerlink" title="5.1.2VScode版官方介绍："></a>5.1.2VScode版官方介绍：</h3><p>Fitten Code 是一个由非十科技自研代码大模型驱动的 AI 代码助手。它支持多种语言，包括 <code>Python</code>、<code>JavaScript</code>、<code>TypeScript</code>、<code>Java</code>、<code>C</code>、<code>C++</code> 等。使用 Fitten Code，你可以<code>自动进行代码补全</code>，并可以在 Visual Studio Code 侧边栏内<code>生成代码</code>、<code>生成注释</code>、<code>编辑代码</code>、<code>解释代码</code>、<code>生成测试</code>、<code>查找错误</code>等。</p><p>官网详情<a href="https://code.fittentech.com/">请点击此处</a></p>]]></content>
     
